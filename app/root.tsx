@@ -7,11 +7,14 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-
+import favico from "../public/favicon.png"
 import tailwind from "./tailwind.css";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: tailwind },
+  {
+    rel:"icon", href:favico, type:"image/png",
+  },
 ];
 
 export const meta: MetaFunction = () => ({
