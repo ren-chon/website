@@ -1,0 +1,9 @@
+.marquee {
+  font-size: 20px;
+  background-color: #121418;
+  color: #e9e6e4;
+  padding: 6px 0;
+  width: calc(100% + 44px);
+  margin-left: -20px;
+  flex-shrink: 0;
+}
